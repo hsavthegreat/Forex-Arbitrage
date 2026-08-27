@@ -12,8 +12,12 @@ __pycache__/
 
 # Data files (large CSVs)
 Data/*.csv
-Arbitrage_Cycles/*.csv
-Results/*.png
+!Data/forex_intraday_2026-06-06.csv  # Keep empty placeholder
+!Data/forex_intraday_2026-06-07.csv  # Keep small sample
+
+# Output files (keep for project deliverables)
+!Arbitrage_Cycles/*.csv
+!Results/*.png
 
 # OS
 .DS_Store
